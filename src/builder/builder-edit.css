@@ -1,0 +1,42 @@
+.builder-edit-section label {
+    display: block;
+    font-size: 0.71875rem;
+    font-weight: 700;
+    color: #111111;
+    text-transform: uppercase;
+    letter-spacing: 0.0625rem;
+    margin-bottom: 0.8rem;
+    margin-top: 0.8rem;
+}
+
+
+.builder-edit-section hr.hr-text {
+    position: relative;
+    border: none;
+    height: 1.5px;
+    background: #999;
+    margin: 30px 0;
+}
+
+.builder-edit-section hr.hr-text::before {
+    content: attr(data-content);
+    display: inline-block;
+    background: #fff;
+    font-weight: bold;
+    font-size: 1.45rem;
+    color: #999;
+    border-radius: 30rem;
+    padding: 0.2rem 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.builder-edit-section .btn {
+    line-height: 1.6;
+}
+
+.builder-edit-section .card-body {
+    padding: 1rem;
+}
