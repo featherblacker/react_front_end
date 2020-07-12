@@ -1,4 +1,5 @@
 import {get, post} from "./restClient"
+const REACT_APP_ENDPOINT = "http://localhost:8080/api";
 
 const profile = () => {
     return get(`${process.env.REACT_APP_ENDPOINT}/me`, true);

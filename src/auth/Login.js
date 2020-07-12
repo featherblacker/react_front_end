@@ -48,11 +48,12 @@ class Login extends Component {
                 submitting: true
             }, () => {
                 login(formValue.username, formValue.password).then(response => {
-                    this.props.history.push("./profile")
+                    this.props.history.push("./profile");
+                    console.log(response);
                 }).catch(error => {
                     console.error(error)
                 });
-                console.log(this.state.formValue)
+                // console.log(this.state.formValue)
             })
         }
     };
