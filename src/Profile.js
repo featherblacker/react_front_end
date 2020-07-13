@@ -36,9 +36,15 @@ class Profile extends Component {
 
     componentDidMount() {
         profile().then(response => {
+            console.log(response.result);
             this.setState({
-                values: clearNulls(response.result),
-
+                // values: clearNulls(response.result),
+                values:{
+                    username:response.result.username,
+                    address:response.result.address,
+                    firstName:response.result.firstName,
+                    lastName:response.result.lastName,
+                }
             })
         }).catch(error => {
             console.log(error)
