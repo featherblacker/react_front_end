@@ -36,10 +36,10 @@ class Header extends Component {
                                     <NavItem><NavLink href={'/'}>Home</NavLink></NavItem>
                                     {hasToken ? (
                                         <>
-                                            <NavItem><NavLink to={'/profile'} className={"nav-link"}>Profile</NavLink></NavItem>
-                                            <NavItem><NavLink to={'/builder/edit'}
+                                            <NavItem><NavLink href={'/profile'} className={"nav-link"}>Profile</NavLink></NavItem>
+                                            <NavItem><NavLink href={'/builder/edit'}
                                                               className={"nav-link"}>Landing Edit </NavLink></NavItem>
-                                            <NavItem><NavLink to={'/builder/preview'}
+                                            <NavItem><NavLink href={'/builder/preview'}
                                                                   className={"nav-link"}>Landing Preview</NavLink></NavItem>
                                              <NavItem><a onClick={this.logout} className={"nav-link"}>Logout</a></NavItem>
                                         </>
