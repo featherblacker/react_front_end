@@ -3,6 +3,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import {isEmptyObject, clearNulls} from "./helpers"
 import {profile} from "./services/profile";
+const REACT_APP_ENDPOINT="http://localhost:8080/api"
 
 class Profile extends Component {
     constructor(props) {
@@ -76,7 +77,7 @@ class Profile extends Component {
 
             if(isEmptyObject(errors)){
                 //call backend
-                fetch(process.env.REACT_APP_ENDPOINT + "/me", {
+                fetch(REACT_APP_ENDPOINT + "/me", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
@@ -151,7 +152,7 @@ class Profile extends Component {
                                                     </label>
                                                     <div className="input-group form">
                                                         <input className="form-control " type="text" name="address"
-                                                               value={values?.address}
+                                                               value={values.address}
                                                                onChange={this.handleInputChange}
                                                                placeholder="Your email"/>
                                                     </div>

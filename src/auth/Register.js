@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {withRouter} from 'react-router-dom'
 import {isEmptyObject} from "../helpers";
-import {login} from "../services/auth";
+import {register} from "../services/auth";
 import Footer from "../Footer";
 
 class Register extends Component {
@@ -49,7 +49,7 @@ class Register extends Component {
             this.setState({
                 submitting: true
             }, () => {
-                login(formValue.username, formValue.password).then(response => {
+                register(formValue.username, formValue.password).then(response => {
                     localStorage.setItem(process.env.REACT_APP_TOKEN, response.result);
                     this.props.history.push("./profile")
                 }).catch(error => {
