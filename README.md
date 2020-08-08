@@ -1,10 +1,10 @@
-### restaurant menu builder Demo
+## restaurant menu builder Demo
 
-####Home
+###Home
 ![Home](/screenshot/Home.png)
-####Register
+###Register
 ![Register](/screenshot/Register.png)
-####Profile
+###Profile
 ![Profile](/screenshot/Profile.png)
-####Editor
+###Editor
 ![Editor](/screenshot/Editor.png)
