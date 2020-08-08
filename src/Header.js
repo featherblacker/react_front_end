@@ -28,7 +28,7 @@ class Header extends Component {
                             <button className="navbar-toggler btn-navbar-toggler" type="button"
                                     data-toggle="collapse"
                                     data-target=".nav-menu" aria-expanded="true" aria-label="Toggle navigation">
-                                <span className="fa fa-bars"></span>
+                                <span className="fa fa-bars"/>
                             </button>
                             <div
                                 className="nav-menu collapse navbar-collapse navbar-collapse justify-content-end py-0 ">
