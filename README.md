@@ -27,3 +27,4 @@ To use the website, the first thing you need to do is register an account. The a
 <div align="center">
 	<img src="screenshot/Editor.png" alt="" width="800" height="450">
 </div>
+<p>In this page, you can design and set the banner of your restaurant and create your own food gallery. You can see the preview of the landing page of it. </p>
