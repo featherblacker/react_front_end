@@ -3,7 +3,9 @@ This single page website is a team work project that provide a place for restaur
  their menu introductions and dishes presentations. Here, people can register and login their own
   account and input their basic information. The essential function of the website is to add, delete, modify and search dishes in the menu. Enter the name, upload the picture, write descriptions and set up the price. Is that simple, right?
 ### Home
-![Home](screenshot/Home.png)
+<div align="center">
+	<img src="screenshot/Home.png" alt="" width="800" height="450">
+</div>
 This is the screen shot of the home page of our website. Here you can see the header navigation, the main page content and the footer serving time and contact information.
 ### Register
 ![Register](screenshot/Register.png)
